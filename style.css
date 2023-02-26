@@ -1,0 +1,61 @@
+h1{
+    border: 5px solid rgb(12, 4, 4);
+    width: 2800px;
+    padding: 10px;
+    margin: 0;
+    background-color: rgb(66, 62, 62);
+    color: azure;
+    height: 90px;
+
+}
+body{
+    background-image:url("https://www.aclu.org/sites/default/files/field_image/web17-collegecampus-socialshare-1200x628.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content{
+    background-color: white;
+    width: 400px;
+    border-radius: 8px;
+    padding: 20px 40px;
+    box-shadow: 0 10px 25px rgba(92, 99, 105, .2)
+}
+.modal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: aliceblue;
+}
+.contain{
+    position: relative;
+    height: 45px;
+    width: 90%;
+    margin-bottom: 17px;
+}
+.label{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    padding: 0 4px;
+    background-color: white;
+    color: #DADCE0;
+    font-size: 16px;
+    transition: 0.5s;
+    z-index: 0;
+  
+}
+.submit{
+    display: block;
+    margin-left: auto;
+    padding: 15px 30px;
+    border: none;
+    background-color: rgb(5, 241, 163);
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 30px
+}
