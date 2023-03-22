@@ -3,40 +3,76 @@
   <head>
     <title>Schedule Builder</title>
     <link rel="stylesheet" href="./public/css/style.css" />
-    <script src="main.js"></script>
+    <script src="validation.js"></script>
   </head>
 
   <body>
     <h1>Course Builder</h1>
-    <div class = modal>
-      <form class="content">
-          <fieldset>
-            <legend>New Student SIGN UP</legend>
-            <p>Please fill in this form to create an account.</p>
-            <hr />
-            <div class = contain>
-            <label for="email" class="label"><b>Email</b></label>
-            <input type="text"placeholder="Enter Email" name="email" required/>
-            </div>
-<div class = contain>
-            <label for="psw" class="label"><b>Password</b></label>
-            <input type="password"placeholder="Enter Password"name="psw"required/>
-            </div>
-<div class = contain>
-            <label for="psw-repeat" class="label"><b>Repeat Password</b></label>
-            <input type="password" placeholder="Repeat Password" name="psw-repeat" required/>
-            </div>
-<div class = contain>
-            <label class="label">
-              <input type="checkbox" checked="checked" name="remember" style="margin-bottom: 15px" />
-              Remember me
-            </label>
-            </div>
-              <button class="submit">Sign up</button>
-            </div>
-          </fieldset>
+    <!--Login-->
+    <div class="login">
+      <form action="" class="form">
+        <p class="header">Login</p>
+  
+        <div class="contain">
+          <label for="" class="label">Email</label><br>
+          <input type="email" class="input" placeholder="@student.gsu.edu" required>
+
+        </div>
+  
+        <div class="contain">
+          <label for="" class="label">Username</label><br>
+          <input type="text" class="input" required>
+
+        </div>
+  
+        <div class="contain">
+          <label for="" class="label">Password</label><br>
+          <input type="text" class="input" minlength="8" required>
+
+        </div>
+  <div class = confirmpassword>
+        <div class="contain">
+          <label for="" class="label">Confirm Password</label><br>
+          <input type="text" class="input" required>
+
+        </div>
+        </div>
+  
+        <input type="submit" class="submit" value="Login">
       </form>
     </div>
+
+<!-- sign up-->
+    <div class="signup">
+      <form action="" class="form">
+        <p class="header">Sign up</p>
+  
+        <div class="contain">
+          <label for="" class="label">Email</label><br>
+          <input type="email" class="input" placeholder="@student.gsu.edu" required>
+        </div>
+  
+        <div class="contain">
+          <label for="" class="label">Username</label><br>
+          <input type="text" class="input" required >
+        </div>
+  
+        <div class="contain">
+          <label for="" class="label">Password</label><br>
+          <input type="text" class="input" minlength="8" required>
+
+        </div>
+  <div class="confirmpassword">
+        <div class="contain">
+          <label for="" class="label">Confirm Password</label><br>
+          <input type="text" class="input" >
+
+        </div>
+        </div>
+  
+        <input type="submit" class="submit" value="Sign Up">
+      </form>
     </div>
+
   </body>
 </html>
